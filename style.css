@@ -41,7 +41,7 @@ h4 {
 	font-family: Verdana, sans-serif;
 }
 
-.right p {
+.main p {
 	margin-left: 5px;
 	margin-right: 5px;
 	margin-top: -10px;
@@ -75,7 +75,7 @@ a:hover {
 	margin-bottom: 10px;
 }
 
-.right {
+.main {
 	position: relative;
 	float: right;
 	margin-top: 50px;
