@@ -1,5 +1,6 @@
-*{box-sizing: border-box; font-family: Helvetica; margin:0px; padding:0px;/* border: 0.1px solid;*/}
+*{box-sizing: border-box; font-family: Helvetica; margin:1px 0px; padding:0px;/* border: 0.1px solid;*/}
 h1 {
+	font-family: 'Days One';
 	font-size: 60px;
 	font-weight: 900;
 }
@@ -27,7 +28,11 @@ h3 {
 	margin: 0px 0px 25px 0px;
 }
 .padding-hor {
+<<<<<<< HEAD
 	padding: 0px 40px;
+=======
+	padding: 0px 30px
+>>>>>>> origin/master
 }
 .padding-left10 {
 	padding-left: 10px;
@@ -46,10 +51,10 @@ h3 {
 }
 .img-circle {
     border-radius: 50%;
-    margin: 10px;
+    margin: 20px 0px 10px 0px;
 }
 .margin-name-tag {
-	margin: 52px 0px 0px 0px;
+	margin: 62px 0px 0px 0px;
 }
 .margin-name-title {
 	margin-top: 15px;
