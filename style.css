@@ -21,6 +21,12 @@ h3 {
 .flex {
 	display: flex;
 }
+.flex-hor {
+	flex-direction: row;
+}
+.flex-ver {
+	flex-direction: column;
+}
 .margin-starting-article {
 	margin: 16px 0px 16px 0px;
 }
