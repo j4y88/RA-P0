@@ -1,5 +1,5 @@
 *{box-sizing: border-box; margin:0px; padding:0px;/*border: 0.1px solid;*/}
-@media (max-width: 750px){
+@media (max-width: 800px){
 h1 {
 	font-family: "Kanit";
 	font-size: 90px;
@@ -21,11 +21,16 @@ h3 {
 	font-size: 16px;
 	font-weight: 300;
 }
+hr { 
+	margin: 10%;
+}
 .hr-margin {
-	margin:4px 0px;
-	text-align: center;
+	margin:4px auto;
 }
 .col-35 {
+	width: 100%;
+}
+.col-60 {
 	width: 100%;
 }
 .col-65 {
@@ -33,13 +38,12 @@ h3 {
 }
 .flex {
 	display: flex;
-	flex-flow: wrap;
 }
 .flex-hor {
-	flex-direction: column;
+	flex-flow: column wrap;
 }
 .flex-ver {
-	flex-direction: column;
+	flex-flow: column wrap;
 }
 .margin-starting-article {
 	margin: 8px 0px 8px 0px;
@@ -67,14 +71,14 @@ h3 {
 }
 .img-circle {
     border-radius: 50%;
-    margin: 50px 0px 50px 0px;
+    margin: 50px 0px 30px 0px;
 }
 .margin-name-tag {
 	margin: 110px 0px 0px 0px;
 }
 .margin-name-title {
 	margin-top: 15px;
-	margin-bottom: 55px;
+	margin-bottom: 40px;
 }
 .background-fractal-image {
 	background-image: url("bg2.jpg");
@@ -85,7 +89,28 @@ h3 {
 	align-items: center;
 	align-self: center;
 }
+.first {
+	order: 2;
 }
+.second {
+	order: 1;
+}
+.third {
+	order: 3;
+}
+.fourth {
+	order: 4;
+}
+}
+
+
+
+
+
+
+
+
+
 
 
 

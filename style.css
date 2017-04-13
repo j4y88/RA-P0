@@ -1,5 +1,5 @@
 *{box-sizing: border-box; margin:0px; padding:0px;/*border: 0.1px solid;*/}
-@media (min-width: 750px) and (max-width: 1700px){
+@media (min-width: 800px) and (max-width: 1700px){
 h1 {
 	font-family: "Kanit";
 	font-size: 90px;
@@ -25,18 +25,20 @@ h3 {
 .col-35 {
 	width: 35%;
 }
+.col-60 {
+	width: 60%;
+}
 .col-65 {
 	width: 65%;
 }
 .flex {
 	display: flex;
-	flex-flow: wrap;
 }
 .flex-hor {
-	flex-direction: row;
+	flex-flow: row wrap;
 }
 .flex-ver {
-	flex-direction: column;
+	flex-flow: column wrap;
 }
 .margin-starting-article {
 	margin: 8px 0px 8px 0px;
@@ -74,7 +76,20 @@ h3 {
 	margin-bottom: 51px;
 }
 .background-fractal-image {
-	background-image: url("bg2.jpg");
+	background-image: url("bg1.jpg");
+	background-position: center;
+}
+.first {
+	order: 1;
+}
+.second {
+	order: 2;
+}
+.third {
+	order: 3;
+}
+.fourth {
+	order: 4;
 }
 }
 
